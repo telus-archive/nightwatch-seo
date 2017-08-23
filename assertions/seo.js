@@ -1,4 +1,6 @@
 module.exports.assertion = function (context, options) {
+  options = Object.assign({ meta: true }, options)
+
   this.message = `${context} passes SEO checklist`
   this.value = (result) => result
   this.expected = true
