@@ -15,7 +15,7 @@
 npm install --only=production --save @telusdigital/nightwatch-seo
 
 # using yarn
-yarn add @telusdigital/nightwatch-seo [--dev/-D]
+yarn add @telusdigital/nightwatch-seo --dev
 ```
 
 ## Usage
