@@ -1,5 +1,5 @@
 {
-  "version": "1.1.2",
+  "version": "0.0.0-development",  
   "name": "@telusdigital/nightwatch-seo",
   "description": "Nightwatch.js utility assertion for SEO testing in accordance to TELUS digital SEO rules",
   "homepage": "https://github.com/telusdigital/nightwatch-seo",

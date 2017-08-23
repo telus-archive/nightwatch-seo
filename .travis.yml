@@ -14,7 +14,7 @@ cache:
     - node_modules
 
 before_deploy:
-  - npm install --only=production semantic-release
+  - npm install --global --only=production semantic-release
 
 deploy:
   skip_cleanup: true
