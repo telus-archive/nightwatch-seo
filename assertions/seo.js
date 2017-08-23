@@ -11,7 +11,11 @@ module.exports.assertion = function (context, options) {
     })
 
     this.api.elements('css selector', `${context} img`, (result) => {
-      result.value.forEach((value) => assert.imgAltCheck(value.ELEMENT))
+      result.value.forEach((value) => {
+        this.api.elementIdAttribute(value.ELEMENT, 'alt', (result) => {
+          assert.ok(result.value !== '', 'images must contain alt text')
+        })
+      })
     })
 
     if (options.meta) {
