@@ -1,0 +1,42 @@
+{
+  "version": "0.0.0-development",
+  "name": "@telusdigital/nightwatch-seo",
+  "description": "Nightwatch.js utility assertion for SEO testing in accordance to TELUS digital SEO rules",
+  "homepage": "https://github.com/telusdigital/nightwatch-seo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/telusdigital/nightwatch-seo.git"
+  },
+  "license": "ISC",
+  "keywords": [
+    "nightwatch",
+    "assertion",
+    "assert",
+    "seo"
+  ],
+  "engines": {
+    "node": ">=4"
+  },
+  "files": [
+    "assertions"
+  ],
+  "bugs": {
+    "url": "https://github.com/telusdigital/nightwatch-seo/issues"
+  },
+  "scripts": {
+    "lint": "standard && echint",
+    "pretest": "npm run lint",
+    "test": "nightwatch --config test/nightwatch.json"
+  },
+  "echint": {
+    "ignore": [
+      "test/reports/**"
+    ]
+  },
+  "devDependencies": {
+    "chromedriver": "^2.31.0",
+    "echint": "^4.0.1",
+    "nightwatch": "^0.9.16",
+    "standard": "^10.0.2"
+  }
+}
