@@ -59,6 +59,49 @@ Name       | Type      | Default | Required | Description
 
 ## SEO Rules
 
+This is a work in progress, checklist below indicates what has been implemented to date:
+
+###### Layout
+
+- `<h1/>`
+  - [x] element should be unique and found only once per page
+
+- `<img>`
+  - [x] element should have `alt` attributes
+  - [ ] element `src` attribute should be separated by underscores
+
+###### Meta
+
+- Page URL
+  - [ ] URL phrase should be separated with dashes (`-`) between each word
+
+- `<link rel="canonical">`
+  - [ ] element should exist and be unique
+  - [ ] element `href` attribute should not be empty
+  - [ ] element `href` attribute should exclude provincial parameters, tracking codes and any other extra parameters & query strings
+
+- `<title>`
+  - [x] element should exists and be unique
+  - [x] element should contain company domain name (`TELUS.com`)
+  - [x] element should use a spaced dash (` - `) to separate sections
+  - [x] element content length should be not exceed `65` characters
+
+- `<meta name="description">`
+  - [x] element should exists and be unique
+  - [x] element content length should not exceed `155` characters
+
+- `<meta name="keywords">`
+  - [ ] element should exists and be unique
+  - [ ] element content should not be empty
+
+###### Social Meta
+
+> TODO
+
+###### Structured Data and Schema Markups
+
+> TODO
+
 ---
 > :copyright: [TELUS digital](https://labs.telus.com/)  · 
 > License: [ISC][license-url]  · 
