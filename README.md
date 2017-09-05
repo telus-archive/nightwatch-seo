@@ -90,18 +90,78 @@ This is a work in progress, checklist below indicates what has been implemented 
   - [x] element should exists and be unique
   - [x] element content length should not exceed `155` characters
 
-- `<meta name="keywords">`
-  - [ ] element should exists and be unique
-  - [ ] element content should not be empty
-
 ###### Social Meta
 
-> TODO
+- `<meta property="og:title">`
+  - [x] element should exists and be unique
+  - [x] element should contain company domain name (`TELUS.com`)
+  - [x] element should use a spaced dash (` - `) to separate sections
+  - [x] element content length should be not exceed `65` characters
 
-###### Structured Data and Schema Markups
+- `<meta property="og:description">`
+  - [ ] element should exists and be unique
+  - [ ] element content length should not exceed `155` characters
+  
+- `<meta property="og:url">`
+  - [ ] element should exists and be unique
+  - [ ] element `content` attribute should not be empty
+  - [ ] element `content` attribute should exclude provincial parameters, tracking codes and any other extra parameters & query strings
+ 
+- `<meta property="og:image">`
+  - [ ] element should exist and be unique
+  - [ ] element should contain an image URL that best represents the page
+  
+###### Structured Data 
 
-> TODO
+##### For product detail pages ie phones and accessories
 
+- @type": "Product"
+  - [ ] element should exist
+
+- "name"
+  - [ ] element should exist
+
+- "description"
+  - [ ] element should exist
+
+- "image" 
+  - [ ] element should exist
+
+- "brand" 
+  - [ ] element should exist
+
+- @type": "Offer"
+  - [ ] element should exist
+
+- "price" 
+  - [ ] element should exist
+
+- "priceCurrency"
+  - [ ] element should exist
+
+- "availability"
+  - [ ] element should exist
+
+- "url" 
+  - [ ] element should exist
+
+##### For video content types
+
+- @type": "VideoObject"
+  - [ ] element should exist
+
+- "name"
+  - [ ] element should exist
+
+- "description"
+  - [ ] element should exist
+
+- "thumbnailUrl"
+  - [ ] element should exist
+
+- "uploadDate"
+  - [ ] element should exist and in ISO 8601 format
+  
 ---
 > :copyright: [TELUS digital](https://labs.telus.com/)  · 
 > License: [ISC][license-url]  · 
