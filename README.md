@@ -115,51 +115,51 @@ This is a work in progress, checklist below indicates what has been implemented 
 
 ##### For product detail pages ie phones and accessories
 
-- @type": "Product"
+- `"@type": "Product"`
   - [ ] element should exist
 
-- "name"
+- `"name"`
   - [ ] element should exist
 
-- "description"
+- `"description"`
   - [ ] element should exist
 
-- "image" 
+- `"image"`
   - [ ] element should exist
 
-- "brand" 
+- `"brand"` 
   - [ ] element should exist
 
-- @type": "Offer"
+- `"@type": "Offer"`
   - [ ] element should exist
 
-- "price" 
+- `"price"` 
   - [ ] element should exist
 
-- "priceCurrency"
+- `"priceCurrency"`
   - [ ] element should exist
 
-- "availability"
+- `"availability"`
   - [ ] element should exist
 
-- "url" 
+- `"url"`
   - [ ] element should exist
 
 ##### For video content types
 
-- @type": "VideoObject"
+- `"@type": "VideoObject"
   - [ ] element should exist
 
-- "name"
+- `"name"`
   - [ ] element should exist
 
-- "description"
+- `"description"`
   - [ ] element should exist
 
-- "thumbnailUrl"
+- `"thumbnailUrl"`
   - [ ] element should exist
 
-- "uploadDate"
+- `"uploadDate"`
   - [ ] element should exist and in ISO 8601 format
   
 ---
