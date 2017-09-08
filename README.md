@@ -147,7 +147,7 @@ This is a work in progress, checklist below indicates what has been implemented 
 
 ##### For video content types
 
-- `"@type": "VideoObject"'
+- `"@type": "VideoObject"`
   - [ ] element should exist
 
 - `"name"`
