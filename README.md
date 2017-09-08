@@ -93,10 +93,10 @@ This is a work in progress, checklist below indicates what has been implemented 
 ###### Social Meta
 
 - `<meta property="og:title">`
-  - [x] element should exists and be unique
-  - [x] element should contain company domain name (`TELUS.com`)
-  - [x] element should use a spaced dash (` - `) to separate sections
-  - [x] element content length should be not exceed `65` characters
+  - [ ] element should exists and be unique
+  - [ ] element should contain company domain name (`TELUS.com`)
+  - [ ] element should use a spaced dash (` - `) to separate sections
+  - [ ] element content length should be not exceed `65` characters
 
 - `<meta property="og:description">`
   - [ ] element should exists and be unique
