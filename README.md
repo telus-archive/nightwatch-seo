@@ -101,17 +101,17 @@ This is a work in progress, checklist below indicates what has been implemented 
 - `<meta property="og:description">`
   - [ ] element should exists and be unique
   - [ ] element content length should not exceed `155` characters
-  
+
 - `<meta property="og:url">`
   - [ ] element should exists and be unique
   - [ ] element `content` attribute should not be empty
   - [ ] element `content` attribute should exclude provincial parameters, tracking codes and any other extra parameters & query strings
- 
+
 - `<meta property="og:image">`
   - [ ] element should exist and be unique
   - [ ] element should contain an image URL that best represents the page
-  
-###### Structured Data 
+
+###### Structured Data
 
 ##### For product detail pages ie phones and accessories
 
@@ -127,13 +127,13 @@ This is a work in progress, checklist below indicates what has been implemented 
 - `"image"`
   - [ ] element should exist
 
-- `"brand"` 
+- `"brand"`
   - [ ] element should exist
 
 - `"@type": "Offer"`
   - [ ] element should exist
 
-- `"price"` 
+- `"price"`
   - [ ] element should exist
 
 - `"priceCurrency"`
@@ -161,11 +161,11 @@ This is a work in progress, checklist below indicates what has been implemented 
 
 - `"uploadDate"`
   - [ ] element should exist and in ISO 8601 format
-  
+
 ---
-> :copyright: [TELUS digital](https://labs.telus.com/)  · 
-> License: [ISC][license-url]  · 
-> Github: [@telusdigital](https://github.com/telusdigital)  · 
+> :copyright: [TELUS digital](https://labs.telus.com/) · 
+> License: [ISC][license-url] · 
+> Github: [@telusdigital](https://github.com/telusdigital) · 
 > Twitter: [@telusdigital](https://twitter.com/telusdigital)
 
 [license-url]: http://choosealicense.com/licenses/isc/
