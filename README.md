@@ -56,6 +56,7 @@ Name          | Type     | Default  | Required | Description
 Name       | Type      | Default | Required | Description
 ---------- | --------- | ------- | -------- | -----------
 **`meta`** | `Boolean` | `false` | `✖️`      | check page meta
+**`titleConstant`** | `String` | `TELUS.com` | `✖️`      | configurable domain name for <title> assertions
 
 ## SEO Rules
 
@@ -82,7 +83,7 @@ This is a work in progress, checklist below indicates what has been implemented 
 
 - `<title>`
   - [x] element should exists and be unique
-  - [x] element should contain company domain name (`TELUS.com`)
+  - [x] element should end with company domain name (`TELUS.com`) or `titleConstant`
   - [x] element should use a spaced dash (` - `) to separate sections
   - [x] element content length should be not exceed `65` characters
 

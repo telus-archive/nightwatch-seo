@@ -27,7 +27,8 @@ module.exports.assertion = function (context, options) {
 
       this.api.getTitle((value) => {
         // TODO: what's the length for French & other languages?
-        assert.ok(/TELUS.com$/.test(value), '<title/> should contain company domain name (`TELUS.com`)')
+        const titleConstant = options.titleConstant || 'TELUS.com'
+        assert.ok(new RegExp(`${titleConstant}$`).test(value), `<title/> should end with company domain name (${titleConstant})`)
         assert.ok(/ - /.test(value), '<title/> should use a spaced dash (` - `) to separate sections')
         assert.ok(value.length <= 65, '<title/> content length should be not exceed `65` characters')
       })
