@@ -19,7 +19,6 @@ stages:
 
 jobs:
   include:
-
     - stage: release
       node: 9
       install: npm install --production
