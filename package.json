@@ -30,7 +30,7 @@
     "test": "nightwatch --config test/nightwatch.json"
   },
   "devDependencies": {
-    "chromedriver": "^2.31.0",
-    "nightwatch": "^0.9.16"
+    "chromedriver": "^2.36.0",
+    "nightwatch": "^0.9.20"
   }
 }
