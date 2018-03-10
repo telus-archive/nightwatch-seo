@@ -14,8 +14,11 @@
     "assert",
     "seo"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "engines": {
-    "node": ">=4"
+    "node": ">=6"
   },
   "files": [
     "assertions"
@@ -24,19 +27,10 @@
     "url": "https://github.com/telusdigital/nightwatch-seo/issues"
   },
   "scripts": {
-    "lint": "standard && echint",
-    "pretest": "npm run lint",
     "test": "nightwatch --config test/nightwatch.json"
-  },
-  "echint": {
-    "ignore": [
-      "test/reports/**"
-    ]
   },
   "devDependencies": {
     "chromedriver": "^2.31.0",
-    "echint": "^4.0.1",
-    "nightwatch": "^0.9.16",
-    "standard": "^10.0.2"
+    "nightwatch": "^0.9.16"
   }
 }

@@ -1,31 +1,28 @@
+if: tag IS blank
+
 language: node_js
 
-node_js:
- - 8
- - 7
- - 6
- - 4
+services: docker
 
-matrix:
-  fast_finish: true
+node_js:
+  - 9
+  - 8
+  - 6
 
 cache:
   directories:
     - node_modules
 
-before_deploy:
-  - npm install --global --only=production semantic-release
+stages:
+  - test
+  - release
 
-deploy:
-  skip_cleanup: true
-  provider: script
-  script: semantic-release pre && npm publish --access public && semantic-release post || true
+jobs:
+  include:
 
-  on:
-    branch: master
-    node: 8
-
-branches:
-  except:
-    - /^v\d+\.\d+\.\d+$/
-    - /^greenkeeper\/.+/
+    - stage: release
+      node: 9
+      install: npm install --production
+      script: npx semantic-release
+      if: branch = master
+      if: type IN (push)
