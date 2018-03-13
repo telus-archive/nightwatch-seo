@@ -1,5 +1,7 @@
 # Nightwatch SEO [![version][npm-version]][npm-url] [![License][license-image]][license-url]
 
+> **DEPRECATED** in favor of [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
+
 > Nightwatch.js utility assertion for SEO testing in accordance to TELUS digital [SEO rules](#seo-rules)
 
 [![Build Status][travis-image]][travis-url]
